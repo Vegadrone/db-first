@@ -5,12 +5,12 @@ foto_veicolo - stringa - TEXT - NULL
 prezzo - float - FLOAT(8,2) - NOTNULL
 descrizione - stringa - TEXT - NOTNULL
 anno_immatricolazione - data - DATE - NOTNULL
-chilometri_percorsi - stringa - VARCHAR(20) - NOTNULL
+chilometri_percorsi - intero - MEDIUMINT - NOTNULL
 alimentazione - stringa - VARCHAR(15) - NOTNULL
 cambio_manuale - booleano - TINYINT - NOTNULL
 cambio_automatico - booleano - TINYINT - NOTNULL
 posti - intero - TINYINT - NOTNULL
-potenza - stringa - VARCHAR(30) - NULL
+potenza - intero - SMALLINT - NULL
 colore - stringa - VARCHAR (20) - NULL
 abs - booleano - TINYINT - NULL
 airbag_laterali - booleano - TINYINT - NULL
@@ -19,6 +19,6 @@ airbag_passeggero - booleano - TINYINT - NULL
 climatizzatore - booleano - TINYINT - NULL
 chiusura_centralizzata - booleano - TINYINT - NULL
 chiusura_centralizzata_telecomandata - booleano - TINYINT - NULL
-consumi - stringa - VARCHAR(20) - NULL
-emissioni_co2 - stringa - VARCHAR(20) - NULL
+consumi - intero - SMALLINT - NULL
+emissioni_co2 - intero - SMALLINT- NULL
 
